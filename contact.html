@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<div>
+    <p>Send me an <a href="mailto:info@adriansax.com">email</a> or <br> <a href="tel:+34495875498">call</a> me instead </p>
+</div>
+<form action="invent.php" method="get">   
+    <fieldset>
+        <legend>Contact</legend>
+
+        <label for="name">name</label>
+        <input type="text" maxlength="30"  pattern="/^([a-zA-Z0-9_-])/" name="name" id="name" placeholder="your name..." required autofocus><br>
+        
+        <label for="email">email</label>
+        <input type="email" name="email" id="email" placeholder="your email..."  required><br>
+        
+        <label for="age">age (between 18 and 99)</label>
+        <input type="number" name="number" id="number" min="18" max="99" placeholder="your age..."  required><br>
+        
+        <label for="telf">telephone</label>
+        <input type="tel" name="telf" id="telf" placeholder="your number..." required><br>
+        
+        <label for="subject">subject</label>
+        <input type="text" name="subject" id="subject" placeholder="what happens?..." required><br>
+        
+        <label for="description">description</label>
+        <textarea name="description" id="description" cols="30" rows="10" placeholder="explain yourself..." required></textarea><br>
+        
+        <label for="check">Agree conditions</label>
+        <input type="checkbox" id="check"><br>
+        
+        <input type="submit" value="sumbit">
+    </fieldset>         
+</form>
