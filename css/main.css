@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+@import url('../typefaces/PT_Mono_Local/stylesheet.css');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'PT Mono', monospace;
+    color: #FFFFFF;
+    background-color: #231f20;
+}
+
+h1 {
+    /* Se que en el ejercicio pone con em. Sin embargo creo que rem tiene más sentido y está mejor enfocado a un entorno responsivo */
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h2 a {
+    text-decoration: none;
+} 
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    text-indent: 5%;
+    line-height: 1.5rem;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: #008dca;
+}
+
+nav a {
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #008dca;
+    font-size: 1.7rem;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+aside div.list ul {
+    margin: 50px;
+    list-style-type: binary;
+}
+
+.active {
+    color: #008dca;
+    font-size: 1.7rem;
+}
+
+
+
+
+
