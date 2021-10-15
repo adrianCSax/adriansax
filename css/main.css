@@ -35,8 +35,25 @@ p {
     line-height: 1.5rem;
 }
 
+.visiting article a:visited {
+    color: #66d1ff;
+}
+
+.visiting article a:link {
+    color: white;
+}
+
 a {
+    color: white;
+}
+
+a:link {
     color: inherit;
+}
+
+ a:focus {
+    color: #008dca;
+    font-size: 1.25em;
 }
 
 a:hover {
@@ -48,7 +65,18 @@ nav a {
     text-decoration: none;
 }
 
+
+nav a:visited.active {
+    color: #008dca;
+    font-size: 1.7rem;
+}
+
 nav a:hover {
+    color: #008dca;
+    font-size: 1.7rem;
+}
+
+.active {
     color: #008dca;
     font-size: 1.7rem;
 }
@@ -62,12 +90,19 @@ aside div.list ul {
     list-style-type: binary;
 }
 
-.active {
-    color: #008dca;
-    font-size: 1.7rem;
+table {
+    caption-side: bottom;
+    table-layout: auto;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid white;
 }
 
+table:first-child {
+    background-color: #008dca;
+}
 
-
-
-
+table:nth-child(odd) {
+    background-color: azure;
+}
