@@ -13,6 +13,30 @@ html {
     background-color: #231f20;
 }
 
+header {
+    margin: 10rem 5rem 0rem 2.5rem;
+}
+
+main {
+    margin: 5rem;
+}
+
+article {
+    margin: 2.5rem;
+}
+
+section {
+    margin: 2.5rem;
+}
+
+iframe {
+    border: none;
+    overflow:hidden; 
+    position: absolute; 
+    display: flex;
+    min-height: 25px;
+}
+
 h1 {
     /* Se que en el ejercicio pone con em. Sin embargo creo que rem tiene más sentido y está mejor enfocado a un entorno responsivo */
     font-size: 3.5rem;
@@ -60,18 +84,42 @@ a:hover {
     color: #008dca;
 }
 
-nav a {
+.mainMenu {
+    position: fixed;
+    background-color: #231f20;
+    width: 100%;
+    top: 0;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.mainMenu :first-child > a > img {
+    align-self: flex-start;
+}
+
+.mainMenu div > a {
+    margin: 0.5rem 1rem;
+}
+
+.mainMenu img {
+    width: 10rem;
+}
+
+.mainMenu a {
     font-size: 1.5rem;
     text-decoration: none;
 }
 
 
-nav a:visited.active {
+.mainMenu a:visited.active {
     color: #008dca;
     font-size: 1.7rem;
 }
 
-nav a:hover {
+.mainMenu a:hover {
     color: #008dca;
     font-size: 1.7rem;
 }
@@ -80,6 +128,7 @@ nav a:hover {
     color: #008dca;
     font-size: 1.7rem;
 }
+
 
 footer a {
     text-decoration: none;
@@ -99,10 +148,34 @@ table {
     border: 1px solid white;
 }
 
-table:first-child {
+tr:first-child {
     background-color: #008dca;
 }
 
-table:nth-child(odd) {
-    background-color: azure;
+td:nth-child(odd) {
+    background-color:dimgrey;
+}
+
+.whats-icon {
+    position: fixed;
+    top: 85%;
+    right: 2.5%;
+    background-color: aliceblue;
+    border-radius: 50%;
+    width: 5.5rem;
+    height: 5.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.fab, .fa-whatsapp {
+    font-size: 4rem;
+    color: #008dca;
+    margin-top: 0.5rem;
+   
+}
+
+figure > img {
+    width: 100%;
+    margin: 2.5rem 2.5rem 2.5rem 0rem;
 }

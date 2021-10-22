@@ -1,94 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/cee8303f07.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/main.css">
     <title>Blog Page</title>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <a href="../index.html"><img src="../imgs/logoprueba.png" alt="Adrian Sax Personal Logo"></a>
-            <div>
-                <a href="../index.html">Home</a>
-                <a href="../about.html">About</a>
-                <a href="../projects.html">Proyects</a>
-                <a href="../blog_index.html">Blog</a>
-            </div>
-        </nav>
-        <h1>Mi Blog</h1>
-    </header>
-    <hr>
-    <section>
-        <article>
-            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi consequatur, unde, maiores soluta repellendus totam error dolores repellat saepe mollitia necessitatibus nostrum iste ducimus. Quia molestias sapiente vitae. Sequi, maiores?</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit omnis reiciendis hic a, <span>voluptatibus</span> rem pariatur, cupiditate aspernatur architecto corrupti, quaerat quos sunt nemo! Nobis ex iste sapiente porro esse.</p>
-        </article>
-        <hr>
-        <article>
-            <h2>Optio suscipit cum voluptas minima! Asperiores, architecto modi?</h2>
-            <p>Lorem ipsum dolor <strong>sit amet consectetur</strong>, adipisicing elit. Sequi consequatur, unde, maiores soluta repellendus totam error dolores repellat saepe mollitia necessitatibus nostrum iste ducimus. Quia molestias sapiente vitae. Sequi, maiores?</p>
-            <figure>
-                <img src="https://www.geekmi.news/__export/1613677953141/sites/debate/img/2021/02/18/increible-mundo-de-gumball.png_2090353348.png"
-                     alt="Foto de asombroso mundo de Gumball">
-                <figcaption>Gumball &lt;3</figcaption>
-              </figure>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit omnis reiciendis hic a, voluptatibus rem pariatur, cupiditate aspernatur architecto corrupti, quaerat quos sunt nemo! <cite><em>Nobis ex iste sapiente porro esse.</em></cite></p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum veritatis dolor non dolores ad excepturi a explicabo animi commodi natus minima ducimus amet eveniet, facere magni iusto optio libero eius?</p>
-        </article>
-    </section>
-
-    <table>
-        <caption>Servicios</caption>
-        <tr>
-            <th>1</th>
-            <th>2</th>
-            <th>3</th>
-        </tr>
-        <tr>
-            <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, praesentium ratione quo reiciendis repudiandae, porro soluta minus facere accusamus voluptas dolores eaque cumque tempore ea eius. Vitae velit ab praesentium.</td>
-            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, sunt vitae fugiat quidem modi labore ad nihil eaque expedita voluptas. Suscipit quae sit nemo dolore natus alias non reiciendis vitae.</td>
-            <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus obcaecati ipsam odit asperiores dicta at cumque minus cupiditate, excepturi molestiae ipsum, recusandae fugiat id magni ab saepe, blanditiis veritatis consequuntur?</td>
-        </tr>
-        <tr>
-            <td>123453</td>
-            <td>3524</td>
-            <td>23432</td>
-        </tr>
-        <tr>
-            <td>Premium</td>
-            <td>No Premium</td>
-            <td>Remium</td>
-        </tr>
-        <tr>
-            <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas sint tempore dignissimos quo. Laborum saepe sed cum numquam ex. Voluptates voluptatum laudantium perspiciatis molestias obcaecati blanditiis sed consequuntur at debitis?</td>
-            <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad consectetur magni impedit voluptatibus laboriosam, odio nemo temporibus sequi iure ipsa alias officia harum, quas dolore libero aliquam voluptatem, eius repellat?</td>
-            <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis rerum illum, facilis recusandae itaque totam, reprehenderit nihil saepe et libero ipsa! Repellendus aperiam consequatur, mollitia magni quae expedita tenetur ab?</td>
-        </tr>
-        <tr>
-            <td>41</td>
-            <td>44</td>
-            <td>45</td>
-        </tr>
-    </table>
-
-    <aside>
+    <nav class="mainMenu">
         <div>
-            <h3>This is an aside</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum veritatis dolor non dolores ad excepturi a explicabo animi commodi natus minima ducimus amet eveniet, facere magni iusto optio libero eius?</p>
+            <a href="../index.html">
+                <img src="../imgs/logoprueba.png" alt="Adrian Sax Personal Logo">
+            </a>
         </div>
-        <div class="list">
-            <ul>
-                <li>Primer Art</li>
-                <li>Segon Art</li>
-                <li>Tercer Art</li>
-            </ul>
+        <div>
+            <a href="../index.html">Home</a>
+            <a href="../about.html">About</a>
+            <a href="../projects.html">Proyects</a>
+            <a href="../blog_index.html">Blog</a>
         </div>
-    </aside>
+    </nav>
+    <header>
+        <h1>Mi Blog <i class="fas fa-camera"></i></h1>
+    </header>
+    <div class="whats-icon"><i class="fab fa-whatsapp"></i></div>
+    <hr>
+    <main>
+        <section>
+            <article>
+                <h2><i class="fas fa-rocket"></i>Lorem ipsum, dolor sit amet consectetur adipisicing elit</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi consequatur, unde, maiores soluta
+                    repellendus totam error dolores repellat saepe mollitia necessitatibus nostrum iste ducimus. Quia
+                    molestias sapiente vitae. Sequi, maiores?</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit omnis reiciendis hic a,
+                    <span>voluptatibus</span> rem pariatur, cupiditate aspernatur architecto corrupti, quaerat quos sunt
+                    nemo! Nobis ex iste sapiente porro esse.</p>
+            </article>
+            <hr>
+            <article>
+                <h2> <i class="fas fa-rocket"></i>Optio suscipit cum voluptas minima! Asperiores, architecto modi?</h2>
+                <p>Lorem ipsum dolor <strong>sit amet consectetur</strong>, adipisicing elit. Sequi consequatur, unde,
+                    maiores soluta repellendus totam error dolores repellat saepe mollitia necessitatibus nostrum iste
+                    ducimus. Quia molestias sapiente vitae. Sequi, maiores?</p>
+                <figure>
+                    <img src="https://www.geekmi.news/__export/1613677953141/sites/debate/img/2021/02/18/increible-mundo-de-gumball.png_2090353348.png"
+                        alt="Foto de asombroso mundo de Gumball">
+                    <figcaption>Gumball &lt;3</figcaption>
+                </figure>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit omnis reiciendis hic a, voluptatibus
+                    rem pariatur, cupiditate aspernatur architecto corrupti, quaerat quos sunt nemo! <cite><em>Nobis ex
+                            iste sapiente porro esse.</em></cite></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum veritatis dolor non dolores ad
+                    excepturi a explicabo animi commodi natus minima ducimus amet eveniet, facere magni iusto optio
+                    libero eius?</p>
+            </article>
+        </section>
 
+        <table>
+            <caption>Servicios</caption>
+            <tr>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+            </tr>
+            <tr>
+                <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, praesentium ratione quo reiciendis
+                    repudiandae, porro soluta minus facere accusamus voluptas dolores eaque cumque tempore ea eius.
+                    Vitae velit ab praesentium.</td>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, sunt vitae fugiat quidem modi labore
+                    ad nihil eaque expedita voluptas. Suscipit quae sit nemo dolore natus alias non reiciendis vitae.
+                </td>
+                <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus obcaecati ipsam odit asperiores
+                    dicta at cumque minus cupiditate, excepturi molestiae ipsum, recusandae fugiat id magni ab saepe,
+                    blanditiis veritatis consequuntur?</td>
+            </tr>
+            <tr>
+                <td>123453</td>
+                <td>3524</td>
+                <td>23432</td>
+            </tr>
+            <tr>
+                <td>Premium</td>
+                <td>No Premium</td>
+                <td>Remium</td>
+            </tr>
+            <tr>
+                <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas sint tempore dignissimos quo.
+                    Laborum saepe sed cum numquam ex. Voluptates voluptatum laudantium perspiciatis molestias obcaecati
+                    blanditiis sed consequuntur at debitis?</td>
+                <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad consectetur magni impedit voluptatibus
+                    laboriosam, odio nemo temporibus sequi iure ipsa alias officia harum, quas dolore libero aliquam
+                    voluptatem, eius repellat?</td>
+                <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis rerum illum, facilis
+                    recusandae itaque totam, reprehenderit nihil saepe et libero ipsa! Repellendus aperiam consequatur,
+                    mollitia magni quae expedita tenetur ab?</td>
+            </tr>
+            <tr>
+                <td>41</td>
+                <td>44</td>
+                <td>45</td>
+            </tr>
+        </table>
+
+        <aside>
+            <div>
+                <h3>This is an aside</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum veritatis dolor non dolores ad
+                    excepturi a explicabo animi commodi natus minima ducimus amet eveniet, facere magni iusto optio
+                    libero eius?</p>
+            </div>
+            <div class="list">
+                <ul>
+                    <li>Primer Art</li>
+                    <li>Segon Art</li>
+                    <li>Tercer Art</li>
+                </ul>
+            </div>
+        </aside>
+    </main>
     <footer>
         <img src="../imgs/logoprueba.png" alt="Decorative footer Logo">
         <div>
@@ -105,4 +138,5 @@
         <p>© All rights reserved</p>
     </footer>
 </body>
+
 </html>
