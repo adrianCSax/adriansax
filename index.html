@@ -11,23 +11,29 @@
 </head>
 
 <body>
-    <nav class="mainMenu">
-        <div>
-            <a href="index.html">
-                <img src="imgs/logoprueba.png" alt="Adrian Sax Personal Logo"></a>
-        </div>
-        <div>
-            <a href="index.html" class="active">Home</a>
-            <a href="about.html">About</a>
-            <a href="projects.html">Proyects</a>
-            <a href="blog_index.html">Blog</a>
-        </div>
-    </nav>
     <header>
-        <video id="areahero_video" preload="auto">
-            <source src="areahero_video.mov" type="video/mov">
-        </video>
+        <nav class="main-menu">
+            <div>
+                <a href="index.html">
+                    <img src="imgs/logoprueba.png" alt="Adrian Sax Personal Logo"></a>
+            </div>
+            <div>
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Proyects</a>
+                <a href="blog_index.html">Blog</a>
+            </div>
+        </nav>
     </header>
+    <div class="video-container">
+        <div>
+            <h1>adriansax</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod nulla iure alias saepe eligendi autem. Vel eos, non officiis temporibus explicabo ab optio nobis consectetur corporis animi quibusdam debitis recusandae!</p>
+        </div>
+        <video playsinline autoplay muted loop poster="placeholder.jpg" id="bgvideo" width="x" height="y">
+            <source src="videos/SourceCode_forHero.mp4" type="video/mp4">
+        </video>
+    </div>
     <section>
         <h2><a href="about.html">About Me</a></h2>
         <div>
@@ -48,33 +54,40 @@
     </section>
     <section class="visiting">
         <h2><a href="blog_index.html">Blog</a></h2>
-        <article>
-            <img src="imgs/" alt="">
-            <h3>Title 1</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis optio facilis, aut nostrum voluptates
-                unde et labore illum nulla, commodi voluptatibus praesentium officia asperiores autem debitis excepturi
-                assumenda quis voluptas!</p>
-            <a href="blog_articles/blog_1.html">Read More</a>
-        </article>
-        <article>
-            <img src="imgs/" alt="">
-            <h3>Title 2</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure porro impedit et vero, molestiae nisi
-                obcaecati quis, fuga eum veritatis dolore praesentium voluptates, repudiandae sit perspiciatis beatae
-                deleniti alias. Illum.</p>
-            <a href="blog_articles/blog_1.html">Read More</a>
-        </article>
-        <article>
-            <img src="imgs/" alt="">
-            <h3>Title 3</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, mollitia! Fugiat, magnam quo minima
-                distinctio ullam impedit reiciendis odio incidunt placeat quasi adipisci assumenda, eos animi quae,
-                libero velit nostrum.</p>
-            <a href="blog_articles/blog_1.html">Read More</a>
-        </article>
+        <div class="articles">
+            <article>
+                <img src="imgs/" alt="">
+                <h3>Title 1</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis optio facilis, aut nostrum
+                    voluptates
+                    unde et labore illum nulla, commodi voluptatibus praesentium officia asperiores autem debitis
+                    excepturi
+                    assumenda quis voluptas!</p>
+                <a href="blog_articles/blog_1.html">Read More</a>
+            </article>
+            <article>
+                <img src="imgs/" alt="">
+                <h3>Title 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure porro impedit et vero, molestiae nisi
+                    obcaecati quis, fuga eum veritatis dolore praesentium voluptates, repudiandae sit perspiciatis
+                    beatae
+                    deleniti alias. Illum.</p>
+                <a href="blog_articles/blog_1.html">Read More</a>
+            </article>
+            <article>
+                <img src="imgs/" alt="">
+                <h3>Title 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, mollitia! Fugiat, magnam quo minima
+                    distinctio ullam impedit reiciendis odio incidunt placeat quasi adipisci assumenda, eos animi quae,
+                    libero velit nostrum.</p>
+                <a href="blog_articles/blog_1.html">Read More</a>
+            </article>
+        </div>
     </section>
-    <section>
-        <iframe title="contactForm" src="contact.html" width="85%" height="50%" scrolling="no"></iframe>
+    <section class="contact-section">
+        <h2>Contact {</h2>
+        <iframe title="contactForm" src="contact.html" scrolling="no"></iframe>
+        <h2>}</h2>
     </section>
     <footer>
         <img src="imgs/logoprueba.png" alt="Decorative footer Logo">

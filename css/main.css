@@ -14,7 +14,7 @@ html {
 }
 
 header {
-    margin: 10rem 5rem 0rem 2.5rem;
+    margin-bottom: 10rem;
 }
 
 main {
@@ -26,7 +26,7 @@ article {
 }
 
 section {
-    margin: 2.5rem;
+    margin: 5rem 2.5rem 2.5rem 2.5rem;
 }
 
 iframe {
@@ -35,6 +35,17 @@ iframe {
     position: absolute; 
     display: flex;
     min-height: 25px;
+    width: 85%;
+    height: 26rem;
+    border-left: 1px white solid;
+}
+
+.contact-section {
+    height: 40rem;
+}
+
+.contact-section > h2:last-child {
+    margin-top: 28rem;
 }
 
 h1 {
@@ -84,7 +95,7 @@ a:hover {
     color: #008dca;
 }
 
-.mainMenu {
+.main-menu {
     position: fixed;
     background-color: #231f20;
     width: 100%;
@@ -94,41 +105,46 @@ a:hover {
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
+    z-index: 1;
 }
 
-.mainMenu :first-child > a > img {
+.main-menu :first-child > a > img {
     align-self: flex-start;
 }
 
-.mainMenu div > a {
+.main-menu div > a {
     margin: 0.5rem 1rem;
 }
 
-.mainMenu img {
+.main-menu img {
     width: 10rem;
 }
 
-.mainMenu a {
+.main-menu a {
     font-size: 1.5rem;
     text-decoration: none;
 }
 
 
-.mainMenu a:visited.active {
+.main-menu a:visited.active {
     color: #008dca;
     font-size: 1.7rem;
 }
 
-.mainMenu a:hover {
+.main-menu a:hover {
     color: #008dca;
     font-size: 1.7rem;
+}
+
+
+@media (max-width: 720px) {
+
 }
 
 .active {
     color: #008dca;
     font-size: 1.7rem;
 }
-
 
 footer a {
     text-decoration: none;
@@ -178,4 +194,43 @@ td:nth-child(odd) {
 figure > img {
     width: 100%;
     margin: 2.5rem 2.5rem 2.5rem 0rem;
+}
+
+div.articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (max-width: 1024px) {
+    div.articles {
+        display: block;
+    }
+}
+
+.video-container {
+    height: 30rem;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+.video-container h1 {
+    color:#008dca;
+}
+
+.video-container div {
+    padding: 5rem;
+    text-align: center;
+}
+
+.video-container video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: -100;
 }
