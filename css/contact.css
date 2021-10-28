@@ -37,10 +37,6 @@ input, textarea {
     margin: 0.2rem;
 }
 
-input:focus {
-    outline-color: green;
-}
-
 textarea {
     height: 5rem;
 }
