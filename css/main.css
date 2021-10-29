@@ -69,22 +69,27 @@ p {
     text-indent: 5%;
     line-height: 1.5rem;
 }
-
+/* 
 .visiting article a:visited {
     color: #66d1ff;
 }
 
 .visiting article a:link {
     color: white;
-}
+} */
 
 a {
     color: white;
 }
 
-a:link {
+/* a:link {
     color: inherit;
-}
+} */
+
+a :link{ /*No visitado por el usuario*/
+    color: green;
+  }
+
 
  a:focus {
     color: #008dca;
@@ -98,16 +103,35 @@ a:hover {
 .main-menu {
     position: fixed;
     background-color: #231f20;
-    width: 100%;
     top: 0;
     padding: 1rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    z-index: 1;
+    box-shadow: 0 0.1rem 0.6rem black;
+    border-radius: 5rem;
+}
+
+.logo-base {
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
-    z-index: 1;
-    box-shadow: 0 0.1rem 0.6rem black;
+    /* transition: all 0.5s linear; */
 }
+
+.main-menu .menu-options {
+    display: none;
+}
+
+.main-menu .logo-base:hover .menu-options {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
 
 .main-menu :first-child > a > img {
     align-self: flex-start;
@@ -115,6 +139,7 @@ a:hover {
 
 .main-menu div > a {
     margin: 0.5rem 1rem;
+    transition: font-size 0.25s ease-in-out;
 }
 
 .main-menu img {
@@ -132,7 +157,7 @@ a:hover {
     font-size: 1.7rem;
 }
 
-.main-menu a:hover {
+.main-menu .menu-options > a:hover {
     color: #008dca;
     font-size: 1.7rem;
 }
@@ -242,4 +267,14 @@ div.articles {
     height: 100%;
     object-fit: cover;
     z-index: -100;
+}
+
+
+/* TODO: poner la imagen en los archivos pdf y anadir un link a uno en BLOG_1 */
+a[href$=".pdf"] {
+
+}
+
+img[alt=""] {
+    border: red 2px solid;
 }
