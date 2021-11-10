@@ -6,3 +6,11 @@ h1 {
 h2 {
     text-shadow: 4px 4px 2px black;
 }
+
+.more-info {
+    width: 25rem;
+    height: 15rem;
+    overflow: auto;
+    margin: 1rem;
+    padding: 1rem;
+}

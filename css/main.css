@@ -139,7 +139,7 @@ a:hover {
 
 .main-menu div > a {
     margin: 0.5rem 1rem;
-    transition: font-size 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
 }
 
 .main-menu img {
@@ -160,6 +160,7 @@ a:hover {
 .main-menu .menu-options > a:hover {
     color: #008dca;
     font-size: 1.7rem;
+    transform: translate(0.25rem);
 }
 
 
