@@ -92,12 +92,12 @@ a :link{ /*No visitado por el usuario*/
 
 
  a:focus {
-    color: #008dca;
+    color: #0092D1;
     font-size: 1.25em;
 }
 
 a:hover {
-    color: #008dca;
+    color: #0092D1;
 }
 
 .main-menu {
@@ -153,12 +153,12 @@ a:hover {
 
 
 .main-menu a:visited.active {
-    color: #008dca;
+    color: #0092D1;
     font-size: 1.7rem;
 }
 
 .main-menu .menu-options > a:hover {
-    color: #008dca;
+    color: #0092D1;
     font-size: 1.7rem;
     transform: translate(0.25rem);
 }
@@ -169,7 +169,7 @@ a:hover {
 }
 
 footer {
-    background: linear-gradient(180deg, #231f20 0%, #008dca 150%);
+    background: linear-gradient(180deg, #231f20 0%, #0092D1 150%);
 }
 
 footer > img {
@@ -177,7 +177,7 @@ footer > img {
 }
 
 .active {
-    color: #008dca;
+    color: #0092D1;
     font-size: 1.7rem;
 }
 
@@ -200,7 +200,7 @@ table {
 }
 
 tr:first-child {
-    background-color: #008dca;
+    background-color: #0092D1;
 }
 
 td:nth-child(odd) {
@@ -221,7 +221,7 @@ td:nth-child(odd) {
 
 .fab, .fa-whatsapp {
     font-size: 4rem;
-    color: #008dca;
+    color: #0092D1;
     margin-top: 0.5rem;
    
 }
@@ -268,7 +268,7 @@ div.articles {
 
 
 .video-wrapper h1 {
-    color:#008dca;
+    color:#0092D1;
 }
 
 .hero {
