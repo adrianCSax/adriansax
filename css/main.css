@@ -172,6 +172,11 @@ footer {
     background: linear-gradient(180deg, #231f20 0%, #0092D1 150%);
 }
 
+footer a:hover {
+    font-weight: bolder;
+    color: inherit;
+}
+
 footer > img {
     width: 10rem;
 }
@@ -315,6 +320,27 @@ div.articles {
     }
 }
 
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+.button {
+    width: 5rem;
+    height: 1.5rem;
+    border-radius: 1rem;
+    border: 1px solid #0092D1;
+    margin-top: 2rem;
+    color: white;
+    background-color: #231f20;
+}
+
+.button:hover {
+    border: 2px solid #0092D1;
+}
 
 
 /* TODO: poner la imagen en los archivos pdf y anadir un link a uno en BLOG_1 */
