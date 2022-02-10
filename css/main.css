@@ -338,6 +338,11 @@ div.articles {
     background-color: #231f20;
 }
 
+div#buttons .button {
+    width: auto;
+    height: auto;
+}
+
 .button:hover {
     border: 2px solid #0092D1;
 }
