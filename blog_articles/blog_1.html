@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <script src="https://kit.fontawesome.com/cee8303f07.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/blog.css">
     <title>Blog Page</title>
@@ -30,9 +31,10 @@
     <h1>Mi Blog <i class="fas fa-camera"></i></h1>
     <div class="whats-icon"><i class="fab fa-whatsapp"></i></div>
     <hr>
+    <div class="container">
     <main>
         <section>
-            <article>
+            <article id="Lorem">
                 <h2><i class="fas fa-rocket"></i>Lorem ipsum, dolor sit amet consectetur adipisicing elit</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi consequatur, unde, maiores soluta
                     repellendus totam error dolores repellat saepe mollitia necessitatibus nostrum iste ducimus. Quia
@@ -43,7 +45,7 @@
                         Adrian Sax</a></p>
             </article>
             <hr>
-            <article>
+            <article id="Optio">
                 <h2> <i class="fas fa-rocket"></i>Optio suscipit cum voluptas minima! Asperiores, architecto modi?</h2>
                 <p>Lorem ipsum dolor <strong>sit amet consectetur</strong>, adipisicing elit. Sequi consequatur, unde,
                     maiores soluta repellendus totam error dolores repellat saepe mollitia necessitatibus nostrum iste
@@ -121,23 +123,9 @@
             <source src="../audios/drum.ogg" type='audio/ogg; codecs="vorbis"'>
         </audio>
 
-        <aside>
-            <div>
-                <h3>This is an aside</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum veritatis dolor non dolores ad
-                    excepturi a explicabo animi commodi natus minima ducimus amet eveniet, facere magni iusto optio
-                    libero eius?</p>
-            </div>
-            <div class="list">
-                <ul>
-                    <li>Primer Art</li>
-                    <li>Segon Art</li>
-                    <li>Tercer Art</li>
-                </ul>
-            </div>
-        </aside>
+ 
 
-        <h3>More Info</h3>
+        <h3 id="More">More Info</h3>
         <div class="more-info">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, voluptas reprehenderit. Harum nihil
                 eveniet expedita ipsam explicabo eaque, assumenda consequatur delectus architecto iusto et at ut? Dicta
@@ -154,6 +142,18 @@
             </p>
         </div>
     </main>
+
+    <aside>
+        <h3>This is an aside</h3>
+        <div>
+            <ul class="list">
+                <li><a id="b1" href="#">Lorem ipsum</a></li>
+                <li><a id="b2" href="#">Optio suscipit </a></li>
+                <li><a id="b3" href="#">More Info</a></li>
+            </ul>
+        </div>
+    </aside>
+    </div>
     <footer>
         <img src="../imgs/logoprueba.png" alt="Decorative footer Logo">
         <div>
@@ -170,5 +170,5 @@
         <p>© All rights reserved</p>
     </footer>
 </body>
-
+<script src="../js/aside.js"></script>
 </html>

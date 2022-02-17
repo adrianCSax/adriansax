@@ -14,3 +14,16 @@ h2 {
     margin: 1rem;
     padding: 1rem;
 }
+
+.container {
+    display: flex;
+}
+
+main {
+    width: 70%;
+}
+
+aside {
+    margin-top: 10rem;
+    width: 30%;
+}
